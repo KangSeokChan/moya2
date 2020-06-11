@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/toolbar_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/img_05"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+       android:background="@drawable/img_09"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar_1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/UserEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="16dp"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:text=""
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="366dp"
+                android:orientation="vertical"
+                android:background="#fff9eb">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:background="#ffd243"
+                    android:text="   아이정보"
+                    android:textColor="#000000"
+                    android:textSize="16dp"></TextView>
+
+                <TextView
+                    android:id="@+id/Username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dp"
+                    android:text=""
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/Usergender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="10dp"
+                    android:text=""
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/Userbirth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="10dp"
+                    android:text=""
+                    android:textSize="18sp" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:background="#ffd243"
+                    android:text="   설문결과"
+                    android:textColor="#000000"
+                    android:textSize="16dp"></TextView>
+
+                <TextView
+                    android:id="@+id/seek"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dp"
+                    android:text=""
+
+                    android:textSize="18sp" />
+
+
+                <TextView
+                    android:id="@+id/avoid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="10dp"
+                    android:text=""
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/sensor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="10dp"
+                    android:text=""
+                    android:textSize="18sp" />
+
+
+                <TextView
+                    android:id="@+id/regist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="10dp"
+                    android:text=""
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:id="@+id/result_bu"
+                    android:text="검사 결과 보기"
+                    android:layout_gravity="right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#f99926"
+                    android:onClick="onClick"/>
+
+
+                <Button
+                    android:id="@+id/remove"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="회원탈퇴"
+                    android:background="#f99926"
+                    android:onClick="onClick"/>
+
+            <Button
+                android:id="@+id/Logout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:text="로그아웃"
+                android:background="#f99926"
+                android:onClick="onClick"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>>
+
+</RelativeLayout>

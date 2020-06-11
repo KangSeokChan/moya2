@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_one_layout"
+
+            android:title="내 아이는 어떤 유형일까?" />
+        <item
+            android:id="@+id/nav_two_layout"
+
+            android:title="내 아이가 궁금해요!" />
+        <item
+            android:id="@+id/nav_three_layout"
+
+            android:title="3분 놀이 레시피" />
+        <item
+            android:id="@+id/nav_four_layout"
+
+            android:title="감각 별 일상생활 꿀팁" />
+
+        <item
+            android:id="@+id/nav_five_layout"
+
+            android:title="도란도란카페" />
+
+    </group>
+
+
+</menu>

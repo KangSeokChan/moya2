@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/toolbar_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/img_05"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="#ffaf10"
+                    android:padding="7dp"
+                    android:text="Why? (이유)"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="85dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/ww"
+                    android:padding="20dp"
+                    android:text="달리기, 회전하기, 움직이기는 강한 전정 및 고유감각 자극을 제공한다."
+                    android:textColor="#000000"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="#ffaf10"
+                    android:padding="7dp"
+                    android:text="Try this! (이렇게 해보세요)"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="152dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/ww"
+                    android:padding="20dp"
+                    android:text="1. 학령전기 아동은 술래잡기 혹은 “나 잡아봐라” 게임 등이 적절.\n\n2. 성숙한 아동은 운동장 트렉 달리기, 이어달리기, 롤러블레이드 타기 혹은 다양한 전정활동을 권할 수 있다."
+                    android:textColor="#000000"></TextView>
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>

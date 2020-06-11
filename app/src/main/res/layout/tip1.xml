@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/toolbar_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/img_05"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="40dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="옷 입기는 많은 기술을 필요로 한다. 독립적으로 옷을 입는 것은 아이의 자존감 형성에 중요한 영향을 미친다. 따라서 아래의 전략들을 사용하여 아이의 자존감에 영향을 줄 수 있다."
+            android:textColor="#000000"
+
+            android:textSize="16dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="#ffaf10"
+                android:padding="7dp"
+                android:text="고유감각"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginTop="15dp"
+                android:background="#ffffff"
+                android:padding="20dp"
+                android:text="- 감각방어를 감소시키기 위해 옷 입기 전에 깊은 압박 활동 제공하기\n\n
+- 로션으로 마사지하기, 관절압박, 점핑, 벽 밀기 등의 활동 제공\n\n
+- 아동이 신체 위치 변화에 두려움이 있다면 한 자세에서 옷을 입히는 것이 좋음"
+                android:textColor="#000000"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="#ffaf10"
+                android:padding="7dp"
+                android:text="전정감각"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="15dp"
+                android:background="#ffffff"
+                android:padding="20dp"
+                android:text="- 아이가 균형 잡기가 어렵다면 앉아서 옷 입히기\n\n
+- 전정감각에 민감한 아동은 옷을 입을 때 머리 위치가 변경되지 않도록 함\n\n
+- 다리를 구부려서 양말을 신는 게 어려울 경우; 넘어짐에 대한 두려움을 없애기 위해 안정된 자세를 만들어주는 것이 좋음"
+                android:textColor="#000000"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="#ffaf10"
+                android:padding="7dp"
+                android:text="촉각"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                android:layout_marginTop="15dp"
+                android:background="#ffffff"
+                android:padding="20dp"
+                android:text="- 재질에 민감할 수 있음; 아이가 좋아하는 옷 구매하기\n\n
+- 아동과 함께 쇼핑하고 선호하는 옷의 공통점 찾기\n\n
+- 축각 민감도를 낮추기 위해 압박감 제공하기\n\n
+- 이음새와 상표에 의한 긁힘을 방지하기 위해 속옷을 뒤집어서 착용할 수도 있음\n\n
+- 세탁기에 여러 번 세탁한 후 아이에게 옷 입히기\n\n
+- 옷의 상표를 제거하거나 상표가 옷에 프린트된 것 구입하기\n\n
+- 아동이 선호하는 옷소매의 길이나 바지 길이 선택\n\n
+- 겨울에는 차가운 옷은 젖은 것처럼 느껴질 수 있기 때문에 입기 전 드라이어로 따듯하게 데워주는 것이 좋음"
+                android:textColor="#000000"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="#ffaf10"
+                android:padding="7dp"
+                android:text="시각"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_marginTop="15dp"
+                android:background="#ffffff"
+                android:padding="20dp"
+                android:text="
+- 패턴이 있는 옷이나 산만한 패턴의 옷 가급적 피하기\n\n
+- 아이들이 좋아하는 캐릭터가 프린트된 옷 입히기\n\n
+- 운동계획능력과 시각자극을 제공하기 위해 거울 앞에서 옷 입히기\n\n
+- 빛의 산란을 최소화하기 위해 단색의 옷 입히기\n\n
+"
+                android:textColor="#000000"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="#ffaf10"
+                android:padding="7dp"
+                android:text="청각"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="15dp"
+                android:background="#ffffff"
+                android:padding="20dp"
+                android:text="- 버튼, 지퍼, 버클이 소음을 발생시키는지 확인하기\n\n
+- 재질이 소리가 나지 않는지 확인하기n"
+                android:textColor="#000000"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="#ffaf10"
+                android:padding="7dp"
+                android:text="후각"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="15dp"
+                android:background="#ffffff"
+                android:padding="20dp"
+                android:text="- 부모님의 체취가 나는 베개 제공하기\n\n
+- 방에 아이가 익숙한 향기 제공하기"
+                android:textColor="#000000"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="#ffaf10"
+                android:padding="7dp"
+                android:text="다른전략들"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="290dp"
+                android:layout_marginTop="15dp"
+                android:background="#ffffff"
+                android:padding="20dp"
+                android:text="
+- 아이가 신발의 좌우 구별이 어렵다면 신발 안에 작은 점 스티커를 붙여 좌우를 구별할 수 있도록 하기\n\n
+- 손기술이 부족한 아이는 벨크로로 된 운동화 신게 하기\n\n
+- 아이의 옷의 좌우를 구별하기 쉽도록 색깔코드 맞추기\n\n
+- 인형에게 옷 입히는 연습하기\n\n
+- 옷 입기 순서에 대한 이해를 높이기 위한 그림카드 사용하기"
+                android:textColor="#000000"></TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

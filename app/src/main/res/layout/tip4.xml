@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/toolbar_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/img_05"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="40dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="화장실 훈련은 스트레스를 유발할 수 있는 어린 시절의 과제 중하나이며, 어린이는 화장실에 대한 많은 통제권을 행사할 수 있다. 아동의 문제에 대해 부모는 전투적인 자세를 취하지 않는 것이 좋다. 화장실 훈련은 스트레스 없이 훨씬 더 원활하게 진행될 수 있다. 훈련 시 좌절의 경험은 아동이나 부모가 모두 정상적임을 알고 있어야 하고 잠시 긴장을 풀고 다시 과제에 집중하도록 한다. 화장실 훈련 시 아래의 감각전략들을 함께 사용할 수 있다.
+"
+                android:textColor="#000000"
+
+                android:textSize="16dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="#ffaf10"
+                    android:padding="7dp"
+                    android:text="고유감각"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ffffff"
+                    android:padding="20dp"
+                    android:text="- 자녀가 기저귀 착용 시 모든 감각정보에 주의 집중하기; 촉각, 냄새 및 젖은 기저귀의 추가 중량(천 기저귀는 일회용 기저귀보다 감각 피드백을 더 제공해줌)\n\n
+- 무게가 있는 조끼, 모자 등 제공하기. 장기간 앉아있는 것을 촉진함.\n\n"
+                    android:textColor="#000000"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="#ffaf10"
+                    android:padding="7dp"
+                    android:text="전정감각"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/ww"
+                    android:padding="20dp"
+                    android:text="- 화장실에 앉아있을 때 발 받쳐 주기\n\n
+- 자녀가 변기에 앉을 수 없다면 가능한 한 안전하게 다음과 같이 시도하기; (1. 유아용 변기 시트로 구멍을 작게 하거나 패딩 시트 제공하기 2. 책, 노래, 음악 및 그림이 있는 벽을 사용해 아이의 주의를 분산시키기 3. 자녀가 기저귀 착용 시 안정감을 느낀다면, 기저귀 착용 허용하기)\n\n
+"
+                    android:textColor="#000000"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="#ffaf10"
+                    android:padding="7dp"
+                    android:text="촉각"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ffffff"
+                    android:padding="20dp"
+                    android:text="- 자녀가 소변을 보기 어렵다면 알몸으로 소변 보게 하기; 아이는 소변을 보았을 때 그 감각을 결과와 연결시킬 수 있음\n\n
+- 아이가 화장지에 민감하다면, 기저귀로 닦거나 젖은 수건 사용하기; 더 부드럽고 쉽게 닦을 수 있음\n\n"
+                    android:textColor="#000000"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="#ffaf10"
+                    android:padding="7dp"
+                    android:text="시각"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ffffff"
+                    android:padding="20dp"
+                    android:text="- 시작자극이 너무 자극적인 경우, 조명을 끄거나 희미하게 하기\n\n
+- 변기에서 물이 반사되면 빛이 산만해질 수 있기 때문에 하양 티슈로 변기 덮어주기\n\n
+"
+                    android:textColor="#000000"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="#ffaf10"
+                    android:padding="7dp"
+                    android:text="청각"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ffffff"
+                    android:padding="20dp"
+                    android:text="- 소음이 너무 심한 경우 소음 제거 헤드셋을 사용하기\n\n
+- 물 내리는 소리에 아이가 놀랄 수 있으니 물은 아이가 화장실을 떠난 후 내리기\n\n"
+                    android:textColor="#000000"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="#ffaf10"
+                    android:padding="7dp"
+                    android:text="후각"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ffffff"
+                    android:padding="20dp"
+                    android:text="- 자녀가 배변의 냄새를 견딜 수 없는 경우 화장실에 가는 동안 커피 냄새 맡게 하기(작은 용기에 넣어 화장실에 가져가기)\n\n"
+                    android:textColor="#000000"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="#ffaf10"
+                    android:padding="7dp"
+                    android:text="다른전략들"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ffffff"
+                    android:padding="20dp"
+                    android:text="
+- 강요하지 않고 자녀의 인내력 존중하기\n\n
+- 자녀의 노력과 용기를 칭찬하기\n\n"
+                    android:textColor="#000000"></TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

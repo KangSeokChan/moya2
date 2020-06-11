@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/toolbar_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/img_05"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="40dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="아이의 치아건강을 위한 치아관리"
+                android:textColor="#000000"
+
+                android:textSize="16dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="#ffaf10"
+                    android:padding="7dp"
+                    android:text="고유감각"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ffffff"
+                    android:padding="20dp"
+                    android:text="- 민감성을 줄이기 위해 치아와 잇몸에 압력 제공\n\n
+- 전동 칫솔 사용하기\n\n
+- 입술 외부와 턱을 따라 압력을 가하여 칫솔질을 준비하기\n\n"
+                    android:textColor="#000000"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="#ffaf10"
+                    android:padding="7dp"
+                    android:text="전정감각"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ffffff"
+                    android:padding="20dp"
+                    android:text="- 아동의 뒤에 서서 균형을 잘 유지할 수 있도록 도와주기\n\n
+- 아이가 서기 힘들 경우 세면대에 몸을 기대게 하기\n\n
+- 거울 사용하기\n\n"
+
+                    android:textColor="#000000"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="#ffaf10"
+                    android:padding="7dp"
+                    android:text="촉각"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ffffff"
+                    android:padding="20dp"
+                    android:text="- 자녀가 촉각에 매우 민감한 경우에는 면봉을 사용하여 치아를 닦아주기\n\n
+                - 처음에는 누크 브러시를 사용하고 칫솔로 변경하기\n\n
+                - 찬물보다 따뜻한 물을 제공하기\n\n"
+                    android:textColor="#000000"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="#ffaf10"
+                    android:padding="7dp"
+                    android:text="시각"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ffffff"
+                    android:padding="20dp"
+                    android:text="
+- 거울을 사용하여 감각 예측시키기\n\n
+- 거울에 반사되는 빛 주의하기\n\n
+- 조명의 밝기 조절하는 스위치 사용하기\n\n
+"
+                    android:textColor="#000000"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="#ffaf10"
+                    android:padding="7dp"
+                    android:text="청각"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ffffff"
+                    android:padding="20dp"
+                    android:text="- 진동 또는 칫솔의 소리가 수행을 방해할 수 있음; 음악이나 숫자세기를 통해 주의를 분산시키기\n\n
+- 소음 제거 헤드셋 또는 백색 소음 사용하기\n\n"
+                    android:textColor="#000000"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="#ffaf10"
+                    android:padding="7dp"
+                    android:text="후각"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ffffff"
+                    android:padding="20dp"
+                    android:text="
+- 매우 약한 향이 나는 치약 사용하기\n\n
+- 치약을 견디는 데 어려움이 있을 경우 따뜻한 물로 입을 자주 헹구게 하기\n\n"
+                    android:textColor="#000000"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="#ffaf10"
+                    android:padding="7dp"
+                    android:text="다른전략들"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ffffff"
+                    android:padding="20dp"
+                    android:text="
+- 시각 타이머를 사용하고 그 시간 동안 칫솔질을 하기\n\n
+- 평소 물을 자주 마시도록 권유하기\n\n"
+                    android:textColor="#000000"></TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

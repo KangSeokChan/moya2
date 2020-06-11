@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--회원가입 시 password입력 형태 변경 및 생년월일 최대 입력 수 변경-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical"
+        android:background="@drawable/img_07">
+
+
+
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="450dp"
+            android:layout_marginTop="150dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:background="@drawable/img_6"
+            android:padding="25dp">
+
+            <EditText
+                android:id="@+id/idText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="아이디(email)"
+                android:inputType="textEmailAddress" />
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:text="아이디는 Email로 해야합니다."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/passwordText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="비밀번호"
+                android:inputType="textPassword"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:text="비밀번호는 6글자 이상"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/childText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="아이이름"
+                android:inputType="textPersonName"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="아이성별"
+                android:textSize="19dp"
+                android:layout_marginTop="10dp"/>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/genderGroup"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="여자"
+                    android:id="@+id/girl"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="남자"
+                    android:layout_weight="1"
+                    android:id="@+id/boy"/>
+            </RadioGroup>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/birthText"
+                android:hint="생년월일(YYYY/MM/DD)"
+                android:maxLength="8"
+                android:inputType="date"
+                android:layout_marginTop="10dp"/>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/img_13"
+                android:id="@+id/joinButton1"/>
+            />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

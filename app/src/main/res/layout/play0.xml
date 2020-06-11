@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/toolbar_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/img_05"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+     <ImageView
+         android:layout_width="20dp"
+         android:layout_height="20dp"
+         android:src="@drawable/list1"
+         android:layout_marginTop="4dp"></ImageView>
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="효과"
+      android:layout_marginLeft="10dp"
+      android:textSize="20dp"
+      android:textColor="#000000"></TextView>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="창의력, 소근육, 지각 발달"
+        android:layout_marginTop="10dp"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/list1"
+            android:layout_marginTop="4dp"></ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="준비물"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:textColor="#000000"></TextView>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="지퍼백, 종이, 물감"
+            android:layout_marginTop="10dp"></TextView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/list1"
+                android:layout_marginTop="4dp">
+
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="순서"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:textColor="#000000"></TextView>
+        </LinearLayout>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical"
+         android:layout_marginTop="15dp">
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/zi1"
+                android:layout_marginTop="10dp">
+
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1) 지퍼백 안에 종이를 넣어주세요"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp" >
+
+            </TextView>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/zi2"
+            android:layout_marginTop="10dp">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2) 종이에 다양한 색상의 물감을 짜주세요"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp">
+        </TextView>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/zi3"
+            android:layout_marginTop="10dp">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3) 손으로 물감을 문질러서 무늬를 만들어 주세요"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp">
+
+        </TextView>
+
+     <ImageView
+         android:layout_width="300dp"
+         android:layout_height="200dp"
+         android:layout_gravity="center"
+         android:src="@drawable/zi4"
+         android:layout_marginTop="10dp">
+     </ImageView>
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="4) 면봉으로 무늬를 꾸밀 수 있어요"
+         android:layout_gravity="center"
+         android:layout_marginTop="5dp">
+
+     </TextView>
+
+                     </LinearLayout>
+
+              </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

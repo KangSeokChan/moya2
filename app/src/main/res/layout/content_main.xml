@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:id="@+id/content_main"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="50dp"
+        android:paddingTop="30dp"
+        android:paddingRight="50dp"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/back2">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="작업치료란?"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="집, 학교, 직장, 지역사회 또는 다른 환경에서의 역할과 상황에 참여하는 것을 목표로 개인 또는 집단의 일상적 활동(작업)을 치료적으로 사용하는 것을 말한다.\n\n작업치료 서비스는 상해, 질병, 장애, 질환, 손상, 불능, 활동제한 또는 참여제한을 가지고 있거나 가질 수 있는 위험이 있는 사람들에게 건강과 안녕의 증진을 목표로 제공된다. \n\n작업치료는 건강, 안녕, 삶의 질에 영향을 미치는 일상에 개입하게 하기 위하여 다양한 배경에서 신체적•인지적•정신사회적•감각적 수행 등 수행의 여러 측면에 여한다."
+        android:textColor="#000000"
+        android:textSize="15dp">
+
+    </TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/main_1"></ImageView>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

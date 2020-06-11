@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/toolbar_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/img_05"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="#ffaf10"
+                android:padding="7dp"
+                android:text="Why? (이유)"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/ww"
+                android:padding="20dp"
+                android:text="움직임을 거부하는 행동은 이들 감각에 대해서 매우 두렵다는 것을 암시한다."
+                android:textColor="#000000"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="#ffaf10"
+                android:padding="7dp"
+                android:text="Try this! (이렇게 해보세요)"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/ww"
+                android:padding="20dp"
+                android:text="장기적인 목표를 가지고 위협적이지 않는 전정활동을 점진적으로 소개해준다. 움직이는 동안 고유감각 제공은 불안과 두려움을 감소시키는데 도움이 된다. 부모님들께 앞쪽 방향으로 움직이도록 격려하는데, 이 방향은 아이가 시각을 사용하여 움직임의 두려움 정도를 알 수 있기 때문이다. (뒤로 움직이는 것은 두려울 수 있다.)"
+                android:textColor="#000000"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

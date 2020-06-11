@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/toolbar_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/img_05"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="40dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="식사는 가족을 위한 사회적 활동이며 다양한 장소와 음식의 종류를 먹을 수 있는 융통성이 필요한 자리이기 때문에 식사 시간은 부모와 자녀에게 사회적 경험을 제공할 수 있다. 식사 자리에 유용하게 사용될 수 있는 전략들을 아래에서 확인할 수 있다.
+"
+                android:textColor="#000000"
+
+                android:textSize="16dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="#ffaf10"
+                    android:padding="7dp"
+                    android:text="고유감각"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ffffff"
+                    android:padding="20dp"
+                    android:text="- 식사 중 무게 있는 조끼나 손목 또는 발목에 무게 제공하기; 이것은 아이가 더 안전하게 느끼고 공간에서의 신체 위치에 대한 더 나은 지식을 가질 수 있음\n\n
+- 자녀가 지저분하게 식사를 할 경우 먹기 전에 입술과 입 주위 눌러주기, 먹기 전 구강운동을 통해(휘파람 불기, 거품 만들기) 감각 피드백을 촉진하고 구강의 적절한 근 긴장도 유지하기\n\n
+- 아이가 자주 음료를 엎지르는 경우 뚜껑과 빨대가 달린 컵 사용하기\n\n
+- 아이가 의자에서 자주 떨어지는 경우 어깨를 눌러 바른 자세 촉진시키기\n\n"
+                    android:textColor="#000000"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="#ffaf10"
+                    android:padding="7dp"
+                    android:text="전정감각"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ffffff"
+                    android:padding="20dp"
+                    android:text="- 앉는 동안 작은 움직임을 촉진하기 위해 방석 사용하기\n"
+
+                    android:textColor="#000000"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="#ffaf10"
+                    android:padding="7dp"
+                    android:text="촉각"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ffffff"
+                    android:padding="20dp"
+                    android:text="- 구강감각에 민감한 아이들은 음식을 먹고 입을 물로 헹구는 것이 좋음\n\n
+- 자녀가 촉각방어가 있는 경우 다른 사람들과의 접촉을 최소화하기 위해 테이블 끝에 자리를 배치시키기\n\n
+- 접시에 음식을 나눠 담아주기\n\n
+- 음식의 온도, 음식의 재질 등을 인지시키기"
+                    android:textColor="#000000"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="#ffaf10"
+                    android:padding="7dp"
+                    android:text="시각"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ffffff"
+                    android:padding="20dp"
+                    android:text="
+- 접시에 놓여 진 음식 확인하기\n\n
+- 아이가 음식을 먹으면서 이완될 수 있도록 탁자 위에 그림 걸어놓기
+"
+                    android:textColor="#000000"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="#ffaf10"
+                    android:padding="7dp"
+                    android:text="청각"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ffffff"
+                    android:padding="20dp"
+                    android:text="- 어떤 어린이들은 스스로 목는 소리나 다른 사람들이 먹는 소리를 참지 못할 수 있다는 것 명심하기\n\n
+- 백색 소음 사용하기\n\n
+- 먹는 소리를 분산시키기 위해 음악 틀기"
+                    android:textColor="#000000"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="#ffaf10"
+                    android:padding="7dp"
+                    android:text="후각"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ffffff"
+                    android:padding="20dp"
+                    android:text="
+- 자녀의 냄새에 대한 반응을 인식하고 아동이 참아낼 수 있는 음식 권장\n\n
+- 식사 시간에 커피와 같이 강한 냄새를 맡게 하면 다른 냄새를 맡기 어렵게 됨"
+                    android:textColor="#000000"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="#ffaf10"
+                    android:padding="7dp"
+                    android:text="다른전략들"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ffffff"
+                    android:padding="20dp"
+                    android:text="
+ 하모니카, 피리 등을 통해 구강 운동과 조절력 기르기\n\n
+- 음식 사이사이 물을 마셔 입을 헹구게 하기\n\n
+- 자녀가 좋아하는 음식으로 시작한 다음 선택 증가시키기\n\n
+- 자녀의 접시 아래 미끄럼 방지 매트를 사용해 접시가 움직이지 않도록 함"
+                    android:textColor="#000000"></TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

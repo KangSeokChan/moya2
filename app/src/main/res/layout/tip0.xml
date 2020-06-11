@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/toolbar_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/img_05"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="40dp"   >
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="16dp"
+
+        android:text="좋은 밤 수면은 모두에게 좋은 세상을 만들어준다. 나쁜 수면 패턴을 가진 아이들은 충분한 수면을 취하지 못할 수 있으므로, 깊은 수면을 취하기 위해 아래의 감각전략들을 사용할 수 있다." />
+
+
+
+        <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ffaf10"
+    android:text="고유감각"
+        android:textStyle="bold"
+        android:padding="7dp"
+        android:layout_marginTop="30dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:text="- 자기 전에 마사지나 관절 압박하기(로션이나 파우더 사용 가능)\n\n
+- 무게 있는 조끼 입히기\n\n
+- 손목과 발목에 무게 달아주기(착용하고 자는 것도 좋음)\n\n
+- 바디 필로우, 침낭 제공\n\n
+- 포대기나 아기띠 사용하기\n\n
+- 꽉 조이는 상의, 자전거 반바지와 같은 단단한 잠옷 사용하기\n\n
+- 그물그네나 공중그네 태우기\n\n
+- 팔, 허벅지, 발목에 압박밴드 사용하기"
+        android:layout_marginTop="15dp"
+        android:padding="20dp"
+        android:textColor="#000000"
+        android:background="@drawable/ww"
+></TextView>
+</LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffaf10"
+            android:text="전정감각"
+            android:textStyle="bold"
+            android:padding="7dp"
+            android:layout_marginTop="30dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="- 아이가 높이를 두려워하면 바닥에 매트리스 깔기\n\n
+- 아이가 머리 위치 변화를 두려워한다면 아이의 머리를 베개로 받쳐주기"
+            android:layout_marginTop="15dp"
+            android:textColor="#000000"
+            android:padding="20dp"
+            android:background="@drawable/ww"
+            ></TextView>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffaf10"
+                android:text="촉각"
+                android:textStyle="bold"
+                android:padding="7dp"
+                android:layout_marginTop="30dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="330dp"
+                android:text="- 부드러운 시트, 담요 사용하기(땀 조절이 어려운 아이들은 흡수가 좋은 면 재질이 좋음)\n\n
+- 부드러운 베개 커버 사용하기\n\n
+- 이불의 이음새와 탄력성, 부드러운 소재로 되어 있는지 확인하기\n\n
+- 자기 전 시트를 건조기에 한번 돌리기; 어떤 아이들은 온도에 민감하고 따뜻한 시트를 선호할 수 있음\n\n
+- 감싸 안기 부드러운 장난감 제공(예 : 애착인형)\n\n
+- 레이스가 있거나 상하가 붙어 있는 잠옷은 피하는 것이 좋음"
+                android:layout_marginTop="15dp"
+                android:textColor="#000000"
+                android:padding="20dp"
+                android:background="@drawable/ww"
+                ></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffaf10"
+                android:text="시각"
+                android:textStyle="bold"
+                android:padding="7dp"
+                android:layout_marginTop="30dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:text="- 천연색으로 벽 칠하기\n\n
+- 빛을 차단하기 위한 커튼 사용하기\n\n
+- 밤에 빛이 골고루 퍼지는 조명 사용하기\n\n
+- 빛 차단을 위해 침대에 천막치기\n\n
+"
+                android:layout_marginTop="15dp"
+                android:textColor="#000000"
+                android:padding="20dp"
+                android:background="@drawable/ww"
+                ></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffaf10"
+                android:text="청각"
+                android:textStyle="bold"
+                android:padding="7dp"
+                android:layout_marginTop="30dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:text="- 소음을 차단하기 위해 백색 소음 사용하기\n\n
+- 백색 소음을 위한 공기 청정기 사용하기\n\n
+- 아이가 좋아하는 느리고 리듬감 있는 음악 들려주기\n\n
+- 창문 닫기\n\n
+- 조용한 목소리로 책 읽어주기\n\n"
+                android:layout_marginTop="15dp"
+                android:textColor="#000000"
+                android:padding="20dp"
+                android:background="@drawable/ww"
+                ></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffaf10"
+                android:text="후각"
+                android:textStyle="bold"
+                android:padding="7dp"
+                android:layout_marginTop="30dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="- 부모님의 체취가 나는 베개 제공하기\n\n
+- 방에 아이가 익숙한 향기 제공하기"
+                android:layout_marginTop="15dp"
+                android:textColor="#000000"
+                android:padding="20dp"
+                android:background="@drawable/ww"
+                ></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffaf10"
+                android:text="다른전략들"
+                android:textStyle="bold"
+                android:padding="7dp"
+                android:layout_marginTop="30dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="290dp"
+                android:text="- 잠들기 전 예측 가능한 일상 유지하기\n\n
+- 방 정리하기\n\n
+- 아이들이 밤에 필요한 물건을 찾을 수 있기 때문에 일정한 장소에 물건 배치하기\n\n
+- 취침 전 뛰기, 큰 소리로 노래 부르기, 먹기 등의 활동은 가능한 자제하기\n\n
+- 취침 전 샤워하기\n\n
+- 취침 전 그날 있었던 일 이야기하기"
+                android:layout_marginTop="15dp"
+                android:textColor="#000000"
+                android:padding="20dp"
+                android:background="@drawable/ww"
+                ></TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

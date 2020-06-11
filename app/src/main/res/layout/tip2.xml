@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/toolbar_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/img_05"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="40dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="만약에 우리가 더 깨끗하고 정돈되어 있다면 다른 사람들에게 우리의 모습이 더 매력적으로 보일 수 있다. 환경에 적합한 위생 관리를 배우기 위하여 아래의 전략들을 사용할 수 있다."
+                android:textColor="#000000"
+
+                android:textSize="16dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="#ffaf10"
+                    android:padding="7dp"
+                    android:text="자기관리를위한전략"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="#ffffff"
+                    android:padding="20dp"
+                    android:text="- 숫자를 세게 하거나 빗질의 수를 세도록 함(예 : 머리를 빗을 때 왼쪽 5회, 뒤쪽 5회, 오른쪽 5회)\n\n
+- 조직화된 환경 제공; 아이가 잘 찾을 수 있도록 물건의 위치 배치하기\n\n
+- 깊은 압박은 가벼운 터치보다 더 효과적임을 기억하기\n\n
+- 독립성을 높이기 위해 서랍과 의류에 라벨 붙이기\n\n
+- 계획, 기술을 더 작은 구성 요소로 나누고 한 번에 한 가지씩 가르치기"
+                    android:textColor="#000000"></TextView>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

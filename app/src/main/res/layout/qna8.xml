@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/toolbar_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/img_05"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="#ffaf10"
+                android:padding="7dp"
+                android:text="Why? (이유)"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/ww"
+                android:padding="20dp"
+                android:text="소리에 대한 민감도는 음성에 대한 민감도와 다를 수 있다."
+                android:textColor="#000000"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="#ffaf10"
+                android:padding="7dp"
+                android:text="Try this! (이렇게 해보세요)"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/ww"
+                android:padding="20dp"
+                android:text="1. 아이가 소리의 출처를 인식하여 안심하도록 한다.\n\n
+2. 껌 씹기 혹은 턱에 강한 고유감각은 외부 소리를 제어하거나 신경계를 진정시킨다."
+                android:textColor="#000000"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

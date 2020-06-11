@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/graph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/graph"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableRow
+        android:id="@+id/table1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/graph">
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="&lt;-------------less---"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:text="&lt;-normal-&gt;"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="159dp"
+            android:layout_height="wrap_content"
+            android:text="---more-----------&gt;"
+            android:textAlignment="center" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/table2"
+        app:layout_constraintTop_toBottomOf="@+id/table1">
+
+        <TextView
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:text="매우적음"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:text="적음"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:text="보통"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="79dp"
+            android:layout_height="wrap_content"
+            android:text="많음"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="매우많음"
+            android:textAlignment="center" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/table3"
+        app:layout_constraintTop_toBottomOf="@+id/table2">
+
+        <TextView
+            android:id="@+id/seek1"
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:text="0"
+            android:textAlignment="center"
+             />
+
+        <TextView
+            android:id="@+id/seek2"
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:text="1------5"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/seek3"
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:text="6------17"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/seek4"
+            android:layout_width="79dp"
+            android:layout_height="wrap_content"
+            android:text="18-----23"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/seek5"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="24-----35"
+            android:textAlignment="center" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/table4"
+        app:layout_constraintTop_toBottomOf="@+id/table3">
+
+        <TextView
+            android:id="@+id/avoid1"
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:text="0------1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/avoid2"
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:text="2------8"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/avoid3"
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:text="9------22"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/avoid4"
+            android:layout_width="79dp"
+            android:layout_height="wrap_content"
+            android:text="23-----29"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/avoid5"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="30-----45"
+            android:textAlignment="center" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/table5"
+        app:layout_constraintTop_toBottomOf="@+id/table4">
+
+        <TextView
+            android:id="@+id/sen1"
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:text="0------2"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/sen2"
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:text="3------9"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/sen3"
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:text="10-----24"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/sen4"
+            android:layout_width="79dp"
+            android:layout_height="wrap_content"
+            android:text="25-----31"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/sen5"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="32-----50"
+            android:textAlignment="center" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/table6"
+        app:layout_constraintTop_toBottomOf="@+id/table5">
+
+        <TextView
+            android:id="@+id/re1"
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:text="0------1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/re2"
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:text="2------5"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/re3"
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:text="6------16"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/re4"
+            android:layout_width="79dp"
+            android:layout_height="wrap_content"
+            android:text="17-----20"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/re5"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="21-----40"
+            android:textAlignment="center"
+            />
+    </TableRow>
+
+    <TableRow
+        app:layout_constraintTop_toBottomOf="@+id/table6"
+        android:id="@+id/table7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="감각"
+            android:textAlignment="center"
+            android:background="#faecc5"
+            />
+
+        <TextView
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:text="결과 점수"
+            android:textAlignment="center"
+            android:background="#ffd243"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="139dp"
+            android:layout_height="wrap_content"
+            android:background="#faecc5"
+            android:text="원점수"
+            android:textAlignment="center" />
+    </TableRow>
+    <TableRow
+        app:layout_constraintTop_toBottomOf="@+id/table7"
+        android:id="@+id/table8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="감각 추구"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/text_seek"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:text="결과_추구"
+            android:textAlignment="center"
+            android:background="#ffd243"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="139dp"
+            android:layout_height="wrap_content"
+            android:text="35"
+            android:textAlignment="center" />
+    </TableRow>
+    <TableRow
+        app:layout_constraintTop_toBottomOf="@+id/table8"
+        android:id="@+id/table9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="감각 회피"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/text_avoid"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:text="결과_회피"
+            android:textAlignment="center"
+            android:background="#ffd243"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="139dp"
+            android:layout_height="wrap_content"
+            android:text="45"
+            android:textAlignment="center" />
+    </TableRow>
+    <TableRow
+        app:layout_constraintTop_toBottomOf="@+id/table9"
+        android:id="@+id/table10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:text="감각 민감"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/text_sensor"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:text="결과_민감"
+            android:textAlignment="center"
+            android:background="#ffd243"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="139dp"
+            android:layout_height="wrap_content"
+            android:text="50"
+            android:textAlignment="center" />
+    </TableRow>
+    <TableRow
+        app:layout_constraintTop_toBottomOf="@+id/table10"
+        android:id="@+id/table11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="감각 둔감"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/text_regist"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:text="결과_추구"
+            android:textAlignment="center"
+            android:background="#ffd243"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="139dp"
+            android:layout_height="wrap_content"
+            android:text="40"
+            android:textAlignment="center" />
+    </TableRow>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_exit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="결과보기 종료"
+        android:background="#ffd243"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

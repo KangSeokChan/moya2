@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/toolbar_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/img_05"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="#ffaf10"
+                android:padding="7dp"
+                android:text="Why? (이유)"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="97dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/ww"
+                android:padding="20dp"
+                android:text="손은 특별히 촉각 수용기가 많은 곳으로 이러한 현상은 촉각방어의 일반적인 증상이다. 흔히 재료의 온도와 습기에 따라 얼마나 잘 견디는지를 결정하기도 한다."
+                android:textColor="#000000"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="#ffaf10"
+                android:padding="7dp"
+                android:text="Try this! (이렇게 해보세요)"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/ww"
+                android:padding="20dp"
+                android:text="진정 작용이 있는 촉각 경험 혹은 다른 활동 기회를 준다. 촉각 놀이를 시연할 때는 심부압박을 사용하고, 만지기 전에 손을 마사지하면 도움이 될 수 있다."
+                android:textColor="#000000"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/toolbar_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/img_05"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="#ffaf10"
+                android:padding="7dp"
+                android:text="Why? (이유)"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="97dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/ww"
+                android:padding="20dp"
+                android:text="손은 다른 신체 부위에 비해 매우 민감할 수 있으며, 손바닥 감각입력은 가벼운 터치에 대한 고통스러운 반응을 무시하는데 도움이 될 수 있다."
+                android:textColor="#000000"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="#ffaf10"
+                android:padding="7dp"
+                android:text="Try this! (이렇게 해보세요)"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="162dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/ww"
+                android:padding="20dp"
+                android:text="1. 책상 위를 매우 세게 누르기, 양손을 맞잡고 누르기, 손을 마사지하기\n\n
+2. 압력을 가하는 다양한 팔찌 손목밴드와 시계밴드도 시도할 수 있다.\n\n
+3. 진동을 제공하는 장난감도 도움이 될 수 있다."
+                android:textColor="#000000"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

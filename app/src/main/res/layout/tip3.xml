@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/toolbar_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/img_05"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="40dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="옷 입기는 많은 기술을 필요로 한다. 독립적으로 옷을 입는 것은 아이의 자존감 형성에 중요한 영향을 미친다. 따라서 아래의 전략들을 사용하여 아이의 자존감에 영향을 줄 수 있다."
+                android:textColor="#000000"
+
+                android:textSize="16dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="#ffaf10"
+                    android:padding="7dp"
+                    android:text="고유감각"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ffffff"
+                    android:padding="20dp"
+                    android:text="- 머리카락을 샴푸 할 때 머리를 지그시 눌러주기\n\n
+- 욕조에서 몸에 압박이 가해지는 자전거 반바지 또는 수영복 착용시키기\n\n
+- 자녀가 촉각에 민감하다면 수건으로 압박감을 제공하고 아래쪽으로 쓰다듬어 주기\n\n
+- 부드럽고 따뜻한 수건에 아이를 단단히 감싸고 눌러준다"
+                    android:textColor="#000000"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="#ffaf10"
+                    android:padding="7dp"
+                    android:text="전정감각"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ffffff"
+                    android:padding="20dp"
+                    android:text="- 아이가 균형이 요구되는 활동을 두려워할 경우 목욕보다는 샤워를 권유함(신체 위치의 변화가 적기 때문)\n\n
+- 아이들의 눈에서 비누와 물을 씻어 내지 않도록 설계된 모자 사용하기\n\n
+- 욕조에 들어가고 나오는 것을 두려워 할 수 있는 어린이를 위한 욕조 레일 사용하기(대부분의 약국에서 구입 가능)"
+                    android:textColor="#000000"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="#ffaf10"
+                    android:padding="7dp"
+                    android:text="촉각"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ffffff"
+                    android:padding="20dp"
+                    android:text="- 자녀가 가장 좋아하는 물의 온도 확인하기\n\n
+- 부드러운 옷 입히기\n\n
+- 샤워 헤드에 마사지 장치를 부착하면 샤워 중에 자녀에게 더 깊은 압력을 제공할 수 있음\n\n
+- 비누 속에 작은 곡물이 들어있는 비누 구입하기; 아이들이 더 선호할 수 있음\n\n"
+                    android:textColor="#000000"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="#ffaf10"
+                    android:padding="7dp"
+                    android:text="시각"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ffffff"
+                    android:padding="20dp"
+                    android:text="
+- 욕실 내 반짝이는 금속과 물의 반사 특성 인식하기\n\n
+- 거품 목욕하기\n\n
+- 운동계획을 높이기 위해 거울 앞에서 몸 말리기\n\n
+- 아이가 쉽게 산만해지면 조명을 어둡게 하고 소리를 최소화하기\n\n
+
+"
+                    android:textColor="#000000"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="#ffaf10"
+                    android:padding="7dp"
+                    android:text="청각"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ffffff"
+                    android:padding="20dp"
+                    android:text="- 소리에 민감한 어린이를 위해 소리를 최소화하기\n\n
+- 예기치 않은 소리를 제거하기 위해 백색 소음 사용가능\n\n
+- 좋아하는 음악 들려주기\n\n"
+                    android:textColor="#000000"></TextView>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="#ffaf10"
+                    android:padding="7dp"
+                    android:text="다른전략들"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ffffff"
+                    android:padding="20dp"
+                    android:text="
+- 인지 준비 전략 사용하기; 예를 들어 “우리는 오른팔과 왼팔을 씻을 거야.”\n\n
+- 재미있는 장난감을 사용하기(물총, 보트, 짜내는 병, 거품 목욕, 롤 온 비누)\n\n
+- 비누로 그림을 그리게 하고, 비누를 문질러 스스로 청소하게 하기\n\n
+- 음악이나 동기를 부여할 수 있는 도구 사용하기\n\n"
+                    android:textColor="#000000"></TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
