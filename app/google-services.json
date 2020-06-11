@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "386436656109",
+    "firebase_url": "https://moya-19e4e.firebaseio.com",
+    "project_id": "moya-19e4e",
+    "storage_bucket": "moya-19e4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386436656109:android:db6cacecc0f045638b55e4",
+        "android_client_info": {
+          "package_name": "com.example.moya2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386436656109-0alketg3aam943saig19aqopcui9he77.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.moya2",
+            "certificate_hash": "594ae01ee70bf4b0e807a8dc610472d04ca6f0de"
+          }
+        },
+        {
+          "client_id": "386436656109-mgevqbqk0oh514h9i2s9k4262u28jm3a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvowTdVBDkBa_rxJF8EyLJPC-LmwlrwkA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "386436656109-mgevqbqk0oh514h9i2s9k4262u28jm3a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
