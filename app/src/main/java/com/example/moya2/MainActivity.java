@@ -9,6 +9,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.SearchView;
+import android.widget.TabHost;
 import android.widget.TextView;
 
 import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -18,6 +20,7 @@ import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.google.android.material.navigation.NavigationView;
+import com.google.android.material.tabs.TabLayout;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
@@ -42,7 +45,27 @@ public class MainActivity extends AppCompatActivity
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         bt = (Button)findViewById(R.id.loginmove);
         txid =(TextView)findViewById(R.id.text_id);
-    }
+
+        TabHost tabHost1 = (TabHost)findViewById(R.id.host);
+        tabHost1.setup();
+        // 첫 번째 Tab. (탭 표시 텍스트:"TAB 1"), (페이지 뷰:"content1")
+        TabHost.TabSpec ts1 = tabHost1.newTabSpec("Tab Spec 1") ;
+        ts1.setContent(R.id.content1) ;
+        ts1.setIndicator("홈") ;
+        tabHost1.addTab(ts1)  ;
+
+        // 두 번째 Tab. (탭 표시 텍스트:"TAB 2"), (페이지 뷰:"content2")
+        TabHost.TabSpec ts2 = tabHost1.newTabSpec("Tab Spec 2") ;
+        ts2.setContent(R.id.content2) ;
+        ts2.setIndicator("데이터구조론") ;
+        tabHost1.addTab(ts2) ;
+
+        // 세 번째 Tab. (탭 표시 텍스트:"TAB 3"), (페이지 뷰:"content3")
+        TabHost.TabSpec ts3 = tabHost1.newTabSpec("Tab Spec 3") ;
+        ts3.setContent(R.id.content3) ;
+        ts3.setIndicator("컴파일러 설계") ;
+        tabHost1.addTab(ts3) ;
+}
 
     @Override
     public void onBackPressed() {
@@ -58,6 +81,10 @@ public class MainActivity extends AppCompatActivity
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
+
+        SearchView searchView = (SearchView)menu.findItem(R.id.toolbar_btn_search).getActionView();
+        searchView.setMaxWidth(Integer.MAX_VALUE);
+        searchView.setQueryHint("검색");
         return true;
     }
     @Override
@@ -69,6 +96,9 @@ public class MainActivity extends AppCompatActivity
 
 
         //noinspection SimplifiableIfStatement
+        if (id == R.id.toolbar_btn_search){
+
+        }
         if (id == R.id.toolbar_btn_navbar) {
             DrawerLayout drawer = (DrawerLayout)findViewById(R.id.drawer_layout);
             drawer.openDrawer(Gravity.RIGHT);
