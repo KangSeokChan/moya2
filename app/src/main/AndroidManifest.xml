@@ -1,14 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.moya2">
 
     <application
         android:allowBackup="true"
+        android:appComponentFactory="whateverString"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        tools:replace="android:appComponentFactory">
+        <activity android:name="com.example.moya2.profile" />
+
+        <activity android:name="com.example.moya2.Intro">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,6 +29,34 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.moya2.Navheadermain" />
+        <activity android:name="com.example.moya2.Loginlayout" />
+        <activity android:name="com.example.moya2.Joinlayout" />
+        <activity android:name="com.example.moya2.ListQnA" />
+        <activity android:name="com.example.moya2.qna1" />
+        <activity android:name="com.example.moya2.qna2" />
+        <activity android:name="com.example.moya2.qna3" />
+        <activity android:name="com.example.moya2.qna4" />
+        <activity android:name="com.example.moya2.qna5" />
+        <activity android:name="com.example.moya2.qna6" />
+        <activity android:name="com.example.moya2.qna7" />
+        <activity android:name="com.example.moya2.qna8" />
+        <activity android:name="com.example.moya2.ListQnA2" />
+        <activity android:name="com.example.moya2.new_content" />
+        <activity android:name="com.example.moya2.content" />
+        <activity android:name="com.example.moya2.result" />
+        <activity android:name="com.example.moya2.Play0" />
+        <activity android:name="com.example.moya2.Play1" />
+        <activity android:name="com.example.moya2.Play2" />
+        <activity android:name="com.example.moya2.Play3" />
+        <activity android:name="com.example.moya2.Play4" />
+        <activity android:name="com.example.moya2.Tip0" />
+        <activity android:name="com.example.moya2.Tip1" />
+        <activity android:name="com.example.moya2.Tip2" />
+        <activity android:name="com.example.moya2.Tip3" />
+        <activity android:name="com.example.moya2.Tip4" />
+        <activity android:name="com.example.moya2.Tip5" />
+        <activity android:name="com.example.moya2.Tip6" />
     </application>
 
 </manifest>
